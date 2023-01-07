@@ -26,14 +26,14 @@
 
 <script>
 export default {
-	// props: ["image", "dateCreated", "time", "title", "text"],
+	props: ["dateCreated", "time", "title", "text"],
 	data() {
 		return {
-			image: "../assets/rocket.png",
-			dateCreated: " 1 Month Ago",
-			title: "Css Grid",
-			text: "The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.",
-			time: "12 Min Read",
+			// image: "../assets/rocket.png",
+			// dateCreated: " 1 Month Ago",
+			// title: "Css Grid",
+			// text: "The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.",
+			// time: "12 Min Read",
 		};
 	},
 };
